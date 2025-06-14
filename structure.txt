@@ -5,7 +5,7 @@ edu_platform
 
         config
             __init__.py
-            logging_config.py     # Logging configuration
+            logging_config.py
 
         models
             __init__.py
