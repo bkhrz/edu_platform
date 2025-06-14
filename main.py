@@ -15,10 +15,10 @@ def main():
         cli.run()
 
     except KeyboardInterrupt:
-        print("\n\n👋 Application interrupted by user. Goodbye!")
+        print("\n\nGoodbye!")
     except Exception as e:
         logging.error(f"Application error: {e}")
-        print(f"❌ An error occurred: {e}")
+        print(f"An error occurred: {e}")
 
 
 if __name__ == "__main__":
