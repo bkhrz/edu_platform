@@ -1,0 +1,23 @@
+edu_platform
+
+        main.py
+        structure.txt
+
+        config
+            __init__.py
+            logging_config.py     # Logging configuration
+
+        models
+            __init__.py
+            base.py               # AbstractRole, User base classes
+            users.py              # Student, Teacher, Parent, Admin classes
+            entities.py           # Assignment, Grade, Schedule, Notification classes
+
+        managers
+            __init__.py
+            data_manager.py       # DataManager class
+            export_manager.py     # ExportManager class
+
+        cli
+            __init__.py
+            interface.py          # CLIInterface class
