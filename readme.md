@@ -1,6 +1,6 @@
-# EduPlatform - Educational Management System
+## EduPlatform - Educational Management System
 
-## Project Overview
+### Project Overview
 
 **Project Name:** EduPlatform  
 **Objective:** Develop an educational platform similar to Kundalik.com using Python with Object-Oriented Programming (OOP) principles. The system operates without a traditional backend database, storing all data in-memory using classes, lists, and dictionaries.
