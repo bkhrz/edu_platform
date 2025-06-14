@@ -1,6 +1,6 @@
 # EduPlatform - Educational Management System
 
-## 📋 Project Overview
+## Project Overview
 
 **Project Name:** EduPlatform  
 **Objective:** Develop an educational platform similar to Kundalik.com using Python with Object-Oriented Programming (OOP) principles. The system operates without a traditional backend database, storing all data in-memory using classes, lists, and dictionaries.
@@ -17,7 +17,7 @@
 - **Student:** Assignment submission, grade viewing
 - **Parent:** Child progress monitoring
 
-## 🏗️ System Architecture
+## System Architecture
 
 ### Core Classes and Models
 
@@ -159,7 +159,7 @@ Notification system management.
 - `send()`: Send notification
 - `mark_as_read()`: Mark notification as read
 
-## 🚀 Key Features
+## Key Features
 
 ### User Management
 - User registration with password hashing
@@ -196,7 +196,7 @@ Notification system management.
 - Class-wide statistics
 - Export capabilities for various formats
 
-## 💾 Data Storage Structure
+## Data Storage Structure
 
 ### In-Memory Data Tables
 
@@ -240,7 +240,7 @@ id, class_id, day, lessons (dict)
 id, message, recipient_id, created_at, is_read, priority
 ```
 
-## 📊 Data Export Capabilities
+## Data Export Capabilities
 
 ### Export Formats
 
@@ -266,7 +266,7 @@ id, message, recipient_id, created_at, is_read, priority
 - **SQL Constraints:** PRIMARY KEY, FOREIGN KEY, and CHECK constraints
 - **Export Logging:** Complete audit trail of export operations
 
-## 🔧 Advanced Features
+## Advanced Features
 
 ### Assignment Monitoring
 - Automatic late submission flagging
@@ -295,50 +295,10 @@ id, message, recipient_id, created_at, is_read, priority
 - **Notification Prioritization:** Important alerts first
 - **Report Generation:** CSV export capabilities for admins
 
-## 🛠️ Installation and Setup
-
-1. **Prerequisites:**
-   ```bash
-   Python 3.8+
-   Required libraries: hashlib, datetime, json, csv, openpyxl
-   ```
-
-2. **Installation:**
-   ```bash
-   git clone <repository-url>
-   cd eduplatform
-   pip install -r requirements.txt
-   ```
-
-3. **Usage:**
-   ```python
-   from eduplatform import EduPlatform
-   
-   # Initialize platform
-   platform = EduPlatform()
-   
-   # Create admin user
-   admin = platform.create_admin("Admin User", "admin@edu.com", "password")
-   
-   # Start using the platform
-   platform.run()
-   ```
-
-## 📈 Future Enhancements
-
-- Web interface integration
-- Real database connectivity
-- Mobile application support
-- Advanced analytics dashboard
-- Multi-language support
-- Cloud storage integration
 
 
-## 📞 Support
-
-For support and questions, please contact:
 - Email: behruzqobilov26@gmail.com
 
 ---
 
-**Note:** This is an educational project designed to demonstrate OOP principles in Python. For production use, consider implementing proper database connectivity and security measures.
+**Note:** This is an educational project designed to demonstrate OOP principles in Python.
